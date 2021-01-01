@@ -100,12 +100,26 @@
 - ***Label***
   
   - *Superscript*
-    ```label <sup> text </sup>```
-     label <sup> text </sup>
-
+    - ```label <sup> text </sup>```
+      label <sup> text </sup>
+    - ```label^text^```
+      label^text^
+    
   - *Subscipt*
-    ```label <sub> text </sub>```
-     label <sub> text </sub>
+    - ```label <sub> text </sub>```
+      label <sub> text </sub>
+    - ```label~text```
+      label~text~
+
+  - *Footnote*
+    ```
+    label [^text]
+    [^text]:this is the footnote for Label-Footnote.
+    ```
+    label [^text]
+    [^text]:this is the footnote for Label-Footnote.
+
+    "^text" is used for matching the "label". The footnote is shown as "[1]", which means "^text" does not affect the appearance of the footnote. 
 
 - ***Cutting Line***
   
@@ -163,7 +177,12 @@
 
   [Here](https://github.com/ejbo/markdown/blob/master/markdown.md) is the markdown page of this tutorial.
 
+- ***Insert Emoji***
 
+  > https://www.webfx.com/tools/emoji-cheat-sheet/
+
+  ```:kissing_smiling_eyes:```
+  :kissing_smiling_eyes:
 
 
     
